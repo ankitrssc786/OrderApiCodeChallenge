@@ -1,10 +1,10 @@
 # OrderApiCodeChallenge
 Prerequisites :
-Java 8+
-Cassandra
-Spring Suite
-Docker
-Docker-Compose
+Java 8+,
+Cassandra,
+Spring Suite,
+Docker,
+Docker-Compose,
 
 Start Environment (Steps to run locally) :
 Create a pull Request or download project from GitHub Repository (Shared Url in the email).
