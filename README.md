@@ -1,18 +1,16 @@
 # OrderApiCodeChallenge
 Prerequisites:
-
-Java 8+,
-Cassandra,
-Spring Suite,
-Docker,
-Docker-Compose,
+-Java 8+
+-Cassandra
+-Spring Suite
+-Docker
+-Docker-Compose
 
 Start Environment (Steps to run locally) :
-
-Create a pull Request or download project from GitHub Repository (Shared Url in the email).
-Import code in the eclipse.
-Install spring suite to run spring boot application.
-Run project as a Spring boot or Run as Java Application.
+- Create a pull Request or download project from GitHub Repository (Shared Url in the email).
+- Import code in the eclipse.
+- Install spring suite to run spring boot application.
+- Run project as a Spring boot or Run as Java Application.
 
 
 ORDER API:
@@ -69,5 +67,5 @@ http://localhost:9001/api/orders
 Response - 200 Success
 
 
-***********Attached PDF************
+***********Attached PDF**********
 - Attaching PDF screenshots which i took during developing application.
