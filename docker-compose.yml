@@ -1,0 +1,16 @@
+version: '3'
+services:
+  springboot-app:
+    ports:
+      - 9001:9001
+    build:
+      context: .
+      args:
+        JAR_FILE: /OrderApiCodeChallenge.jar
+    restart: always
+
+  cassandradb:
+    image: cassandra
+    container_name: cassandradb
+    ports:
+      - "9042:9042"
