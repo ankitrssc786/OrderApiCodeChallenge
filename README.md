@@ -1,27 +1,27 @@
 # OrderApiCodeChallenge
-Prerequisites :
+Prerequisites
 Java 8+,
 Cassandra,
 Spring Suite,
 Docker,
 Docker-Compose,
 
-Start Environment (Steps to run locally) :
+Start Environment (Steps to run locally)
 Create a pull Request or download project from GitHub Repository (Shared Url in the email).
 Import code in the eclipse
 Install spring suite to run spring boot application
 Run project as a Spring boot or Run as Java Application
 
 
-ORDER API :
+ORDER API
 Spring Boot Web Java application that exposes a REST API to manage orders. It uses Cassandra as storage.
 
 Get details about the order created:
 
-Request (Hit URL) :
+Request (Hit URL)
 http://localhost:9001/api/orders/401a85e2-f5da-494b-9f3f-756a91982f23
 
-resposne :
+Resposne
 {
     "id": "401a85e2-f5da-494b-9f3f-756a91982f23",
     "timestamp": 1612487464353,
@@ -35,9 +35,9 @@ resposne :
 }
 
 
-Create Orders with all Details:
+Create Orders with all Details
 
-Request (Hit URL) :
+Request (Hit URL)
 http://localhost:9001/api/orders
 
 [
@@ -63,8 +63,8 @@ http://localhost:9001/api/orders
     }
 ]
 
-Response : 200 Success
+Response - 200 Success
 
 
-Attached PDF :
+Attached PDF
 Attaching PDF screenshots which i took during developing application.
