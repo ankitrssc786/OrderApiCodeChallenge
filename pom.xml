@@ -62,6 +62,6 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>OrderApiCodeChallenge</finalName>
+		<finalName>order-api-code-challenge</finalName>
 	</build>
 </project>
