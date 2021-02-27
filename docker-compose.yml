@@ -6,7 +6,7 @@ services:
     build:
       context: .
       args:
-        JAR_FILE: /OrderApiCodeChallenge.jar
+        JAR_FILE: /order-api-code-challenge.jar
     restart: always
 
   cassandradb:
